@@ -386,7 +386,7 @@ footer{
         width:22rem;
     }
 
-    header button:hover, footer button:hover, .arrow div:hover{
+    header button:hover, footer button:hover, .arrows img:hover{
         transition: all 0.5s ease-out;
         cursor: pointer;
         background-color:#755cde;
