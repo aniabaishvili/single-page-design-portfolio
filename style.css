@@ -9,10 +9,6 @@
 
 body{
     background-color: rgba(255, 247, 240, 1);}
-    
-
-
-
 
 button{
     background-color: #030303;
@@ -196,7 +192,7 @@ header img, footer img{
 
 .slider{
     display: flex;
-}
+    column-gap: 30px;}
 
 .work{
     overflow: hidden;
