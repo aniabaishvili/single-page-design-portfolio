@@ -45,6 +45,7 @@ header img, footer img{
     min-width:140px;
     height:204px;
     margin-top: 45px;
+    padding:0px 15px;
 }
  .text h3{
     color:#7a746e;
