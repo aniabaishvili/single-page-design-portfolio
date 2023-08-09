@@ -6,18 +6,18 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentIndex = 0;
   
     nextBtn.addEventListener('click', () => {
-        currentIndex = (currentIndex + 1) % slides.length;     
-         /*if (currentIndex < slides.length - 1) {
-        currentIndex++; */
+           
+        if (currentIndex < slides.length - 1) {
+        currentIndex++; 
         updateSlider();
         slider.style.transition = 'transform 0.4s ease-in-out';
       }
     });
   
     prevBtn.addEventListener('click', () => {
-        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-        /* if (currentIndex > 0) {
-        currentIndex--; */
+        
+        if (currentIndex > 0) {
+        currentIndex--;
         updateSlider();
         slider.style.transition = 'transform 0.4s ease-in-out';
       }
