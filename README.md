@@ -13,8 +13,13 @@ Users should be able to:
 * See hover states for all interactive elements on the page
 * Navigate the slider using either their mouse/trackpad or keyboard
 
+## Built with
 
-
+* Semantic HTML5 markup
+* CSS custom properties
+* Flexbox
+* CSS Grid
+* Mobile-first workflow
   
 ## What I learned
 
